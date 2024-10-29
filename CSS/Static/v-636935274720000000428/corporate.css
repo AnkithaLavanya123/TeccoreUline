@@ -1,0 +1,152 @@
+.cp { text-align: left; padding: 10px; }
+.cp h1 { color: #000; background: #FFF; font-size: 16px; font-family: 'AvantGardeGothic'; padding-bottom: 5px; text-transform: capitalize; margin-bottom: 10px !important; border-bottom: 1px solid;}
+
+/*why uline*/
+.block_text a { text-decoration: none; }
+.block_title { color: #FFF; background: #036; text-transform: uppercase; padding: 5px; font-family: 'AvantGardeGothic'; font-size: 12px; }
+.block_text { padding: 10px 0px 15px 0px; font-size: 12px; }
+.carouselNavigation { text-align: center; padding: 10px 0px; }
+.page_content .cp #imageCarousel .slick-slide { outline: none; padding: 0 2px; }
+.page_content .cp #imageCarousel .slick-slide img { margin: auto; max-width: 100%; }
+.page_content .cp #imageCarousel .slick-dots li { margin: 0 1px; }
+.page_content .cp #imageCarousel .slick-dots li button:before, .slick-dots li .videoItem:before { color: transparent; opacity: 1; background-size: cover; background-repeat: no-repeat; background-position: center; height: 12px; width: 12px; margin-left: 3px; margin-top: 4px; }
+.page_content .cp #imageCarousel .slick-dots li button:before { font-size: 45px; background-image: url(../../../images/mobile-bullet.png); line-height: 12px; }
+.page_content .cp #imageCarousel .slick-dots li .videoItem:before { background-image: url(../../../images/mobile-bullet-video.png); }
+.page_content .cp #imageCarousel .slick-dots li.slick-active button:before { background-image: url(../../../images/mobile-bullet-active.png); color: transparent; }
+.page_content .cp #imageCarousel .slick-dots li.slick-active .videoItem:before { background-image: url(../../../images/mobile-bullet-video-active.png); }
+.page_content .cp #imageCarousel .slick-slide.youtube { margin-left: 15px; margin-right: 15px; width: calc(100vw - 30px) !important; }
+.page_content .cp #imageCarousel .slick-slide img.videoZoomImg, .slick-slide iframe { width: 100%; height: 250px; }
+.page_content .cp #imageCarousel .slick-slide img.ytImage { padding-left: 0px; padding-right: 0px; left: 50%; position: relative; bottom: 100px; }
+
+/*individual locations pages*/
+img.locationimg { margin-bottom: 10px; width:100%; }
+.locationAddress { font-size: 13px; margin-bottom: 10px; }
+.cp_location div { font-size: 13px; margin-top: 4px; }
+.cp p { font-size: 12px; }
+
+.onlyMobileEstimate .updatePanel { width: 90%; margin: 0 auto; }
+.onlyMobileEstimate .institutionalPageContentDiv { width: 100%; padding: 0 !important;} 
+.onlyMobileEstimate .inline-form-div {
+    width: 100% !important;
+    margin: 0 auto 0 auto;
+    vertical-align: middle;
+    text-align: left !important;
+	height: 60px; 
+}
+.onlyMobileEstimate #lblZipCode { float: left; padding: 4px 8px 0 0; }
+.onlyMobileEstimate .estimateDeliveryHeadTextInline { padding-right: 0px !important; }
+.onlyMobileEstimate #btnEstimate { float: left; }
+.onlyMobileEstimate #txtZipCode { width: 90px; height: 26px !important; font-size: 13px; float: left; }
+.onlyMobileEstimate label { margin-bottom: 10px; }
+.onlyMobileEstimate hr { margin-top: 0 !important; }
+.onlyMobileEstimate #lblEstimateDeliveryTime { font-size: 14px !important; }
+.onlyMobileEstimate .institutionalWidth .outerTable .innerTable td.text #btnEstimate, .onlyMobileEstimate .institutionalWidth .outerTable .deliveryLocations .warehouseLink, .onlyMobileEstimate .institutionalPageContentDiv .inline-form-div #btnEstimate, .onlyMobileEstimate .institutionalPageContentDiv .inline-form-div .estimateDeliveryHeadTextInline, .onlyMobileEstimate .institutionalPageContentDiv .inline-form-div #lblZipCode, .onlyMobileEstimate .institutionalPageContentDiv table tbody:last-child p.fourteenpx {
+    font-size: 13px !important;
+}
+.onlyMobileEstimate #pnlEstimateDeliveryOutput div { width: 100% !important; text-align: left !important;}
+.onlyMobileEstimate #pnlEstimateDeliveryOutput { margin-bottom: 10px !important; }
+.onlyMobileEstimate .estimateDeliveryFooterText {
+    text-align: center !important;
+}
+
+/*Main locations page*/
+.location_address { margin: 8px 0; font-size: 13px !important; line-height: 17px; }
+#estimateDeliveryWrapper #EstimateDelivery .institutionalPageContentDiv {
+	width: calc(100% - 40px) !important;
+}
+
+#base-image-nogallery img { width: 100%; }
+.mobilecontentdiv { width: 93%; display: block; margin: 0 auto; outline: none; padding: 12px 0 0 0; text-align: left; }
+.page_content p { font-size: 13px; margin: 8px 3px 2px 1px; }
+.page_content h2 { font-size: 14px; color: #fff; background-color: #036; margin-top: 22px; font-weight: bold; padding: 4px 0 4px 6px; }
+.locations_text { width: 100%; float: left; padding: 18px 0; text-align: center; border-bottom: 1px solid #e5e4e4; }
+.locations_text-right { width: 47%; float: left; padding: 30px 0; }
+.location_title a { text-decoration: none; font-weight: bold; color: #036; font-size: 16px; padding-bottom: 8px; }
+.locations_map { text-decoration: none !important; font-style: italic; color: #036; font-size: 14px; font-weight: bold; margin-top: 20px; }
+.wider { display: block; }
+.narrow { display: none; }
+.lastone { border-bottom: none; padding-bottom: 40px; }
+.institutionalWidth .outerTable .deliveryLocations { min-height:157px; }
+
+/*@media screen and (max-width: 359px) {
+	.locations_text { width: 100%; float: left; padding-bottom: 30px; }
+	.locations_text-right { width: 100%; float: left; padding-bottom: 30px; padding-left: 0;}
+	.wider { display: none; }
+	.narrow { display: block; }
+}*/
+ 
+ 
+/* testimonials*/
+div.testimonials_title { font-size: 12px !important; padding-bottom: 10px; }
+.testimonials_block { line-height: 1.2em; padding: 20px 0px; border-bottom: 1px solid #E5E5E5; color: #000; }
+.testimonials_block div:nth-child(2) { font-size: 10px !important; }
+.testimonials_block:last-child { border-bottom: 0px !important; }
+.testimonials_banner_text { width: 60% !important; color: #FFF; background: #036; font-size: 12px; line-height: 12px; text-align: center; vertical-align: middle !important; padding: 0px 20px; height: 70px !important; }
+.testimonials_banner_img { width: 40% !important; height: 70px !important; }
+.testimonials_banner_img img { width: 100% !important; height: 100% !important; display: block; }
+.group { display: table; width: 100%; table-layout: fixed; border-collapse: separate; }
+
+
+/*history*/
+.history_names { border-bottom: 1px solid #E5E5E5; padding-bottom: 10px; text-align: center; }
+.gap { margin-bottom: 10px !important; }
+.history_header span { text-transform: uppercase; font-weight: bold; font-size: 14px; }
+.names { font-size: 12px !important; margin-bottom: 0;}
+.block_title { color: #FFF; background: #036; text-transform: uppercase; padding: 5px; font-family: 'AvantGardeGothic'; font-size: 12px !important; }
+.gap { margin-bottom: 10px !important; font-size: 12px !important; line-height: 14px;}
+.gap img { margin-bottom: 2px; }
+.block_text { padding: 10px 0px 15px 0px; }
+ 
+ 
+/* DESKTOP CSS*/
+
+/*history*/ 
+.cssstaticpages { width: 100%; margin: 0 auto; }
+.hist_copy { width: 49%; float: left; }
+.hist_copy h2.cssh2 { background-color: #036; color: #fff; margin-left: 0; width: 100%; line-height: 1.5em; text-align: center; }
+.hist_copy h2.cssh2 { margin: 0; }
+.hist-top { margin-top: -5px; }
+.hist_img { width: 48%; margin-left: 18px; float: left; border: none; }
+.imagemargin { margin: 0 0 0 0px; }
+.hist_img img { width: 358px; height: 249px; margin-left: 0px; }
+span.boldupper { text-transform: uppercase; font-weight: bold; }
+p.to_center.font-xsmall { margin-top: 7px; }
+p.to_center.font-xsmall, p.hist-top font-small { margin-left: 5px; }
+div.keyline-gn.history { margin: 5px 0 0 10px; }
+
+/*why uline*/
+.au_copysection { width:45%;margin:0 5px 0 0;padding: 0 0 30px 0;float:left; }
+.au_copysection p { margin-top:0; }
+.au_mapimage { width:50%; margin:0;float:left; }
+.au_mapimage img{ width:369px;height:374px;margin-left:15px;float:left; }
+.au_videolinks { margin:30px auto; }
+.au_video { width:120px;padding:5px auto;float:left; }
+.au_videodesc { margin:20px 0 5px 10px; font-weight:bold;float:left; }
+.au_video img{width:110px; height:66px;}
+.au_bottomsection { width:100%; }
+.box, .boxleft { width:48%;float:left;margin:0 0 14px 0;}
+.boxleft { margin:0 4% 0 0; }
+.box { float:right; }
+.boxheader { background-color:#003366;height:18px;font-weight:bold;vertical-align: middle;color:#FFFFFF;padding:.1em 0 .1em .5em;margin-bottom:3px;text-transform:uppercase; }
+.clearfix.extrapadding { margin-bottom:30px }
+
+
+
+    @media only screen and (min-width: 1260px) {
+		/*history*/
+        .hist_copy { width: 47%; }
+        .hist_img { width: 49%; margin-left: 22px; }
+        .hist_img img { width: 453px; height: 311px; }
+		
+		/* main locations */
+		.institutionalWidth .outerTable .deliveryLocations { min-height:172px !important; }
+		
+		/*why uline*/
+		.au_mapimage { width: 421px; height: 450px; }
+		.au_mapimage img{ width:421px; height:425px; margin-left:40px; }
+		.au_videolinks { padding-top: 25px;}
+		.au_video img{width:150px; height:91px;}
+		.au_videodesc { margin:35px 0 5px 50px; }
+		.boxheader { height:22px; }
+		
+    }

@@ -1,0 +1,26 @@
+﻿/* Accessibility Compliant color for light blue */
+/* Accessibility Compliant color for light blue */
+.pagehead, .centeredTableData, #templatesHeader {
+  text-align: center; }
+
+.productPadding {
+  width: 98%; }
+
+#searchContainer {
+  height: 25px;
+  padding: 3px 0px; }
+
+tr th {
+  text-align: left; }
+
+thead tr {
+  height: 30px; }
+
+.griditem {
+  height: 20px; }
+
+#labelsPerSheetHeader {
+  width: 85px !important; }
+
+.showAll {
+  display: none; }

@@ -1,0 +1,267 @@
+/* START MOBILE STYLES */
+.faq-ans-container #divContent * {
+	text-align: left;
+	font-size: 13px;
+    line-height: 1.4em !important;
+}
+
+.faq-ans-container #divContent a {text-decoration: underline;}
+
+.faq-ans-container #divContent .mobileWrapper #relatedProducts h3, .faq-ans-container #divContent .faqBtn, .faq-ans-container #divContent .calcbtn {
+	font-size: 14px !important;
+}
+
+.faq-ans-container #divContent p.institutionalmessage, .faq-ans-container #divContent .mobileWrapper #relatedProducts #subhead p  {
+	font-size: 16px !important;
+}
+
+.faq-ans-container #divContent #relatedProducts a, .faq-ans-container #divContent .mobileWrapper #relatedProducts h3, .faq-ans-container #divContent p.institutionalmessage, .faq-ans-container #divContent .faqBtn, .faq-ans-container #divContent .calcbtn  {
+    text-align: center;
+}
+
+.mobilekeyline {
+    margin: 0 0 18px 0;
+    border-bottom: 2px solid #cccccc; 
+    border-top: none; 
+    border-right: none; 
+    border-left: none;
+}
+
+.faq-ans-container #divContent .mobileWrapper ul li {
+    list-style: disc outside !important;
+    margin: 0 0 14px 16px;
+}
+
+.faq-ans-container #divContent .mobileWrapper ol li {
+    list-style: decimal;
+    margin: 0 0 0 16px;
+}
+
+.faq-ans-container #divContent .mobileWrapper h1 {
+    margin: 0 0 12px 0;
+}
+
+.faq-ans-container #divContent .mobileWrapper h1, .faq-ans-container #divContent .mobileWrapper h3 { 
+	font-size: 20px !important;
+    font-weight: bold;
+    padding: 5px 0 0;
+}
+
+.faq-ans-container #divContent img.mobile_screenshot {
+    width: 100%;
+    margin: 20px auto;
+    display: inline-block;
+}
+
+.faq-ans-container #divContent img.mobile_screenshot.faqScreenshotBorder {
+    border: 15px solid #E9E9EB !important;
+    padding: 10px;
+}
+
+.faq-ans-container #divContent #relatedProducts a {
+    width: 50%;
+    margin-bottom: 30px;
+    float: left;
+}
+
+.faq-ans-container #divContent #relatedProducts a img {
+    width: 120px;
+    height: 120px;
+}
+
+.faq-ans-container #divContent p.institutionalmessage {
+    margin-bottom: 10px;
+}
+
+.faq-ans-container #divContent #related-questions p{
+    margin: 0 0 14px;
+}
+
+.faq-ans-container #divContent p#related-questions-title{
+    margin: 0 0 6px;
+}
+
+
+.faq-ans-container #divContent .mobileWrapper #relatedProducts #subhead p {
+    margin-top: 20px;
+}
+
+
+.faq-ans-container #divContent .faqBtn, .faq-ans-container #divContent .calcbtn {
+	margin: 0 auto;
+    color: #fff;
+    background: #06c;
+    border: none;
+    -webkit-appearance: none;
+    border: 0;
+    cursor: pointer;
+    display: block;
+    font-weight: bold;
+    line-height: 1;
+    text-decoration: none;
+    -webkit-user-select: none;
+    vertical-align: middle;
+    padding: .5em 1em;
+    border-radius: 5px;
+    font-family: "AvantGardeGothic",Verdana,Arial,Helvetica,sans-serif;
+    box-shadow: none;
+}
+
+/* END MOBILE */
+
+
+/* START DESKTOP */
+.faq-wrapper850 {width: 850px;}
+
+
+.faq-wrapper p, .faq-wrapper850 p, .faq-wrapper-smaller p, .faq-wrapper li, .faq-wrapper-smaller li, .conversiontoolsboxinputlabel, #conversionTool-subhead, .faq-wrapper button, .faq-wrapper-smaller button, .calcbtn, #relatedProducts h3, .default, input, .faq-wrapper table.boxCharts td, .faq-wrapper .textfield, .faq-wrapper .faqBtn, .faq-wrapper-smaller .faqBtn, .calcbtn {
+	font-size: 14px;
+}
+
+p.institutionalmessage, #relatedProducts #subhead p, #relatedProducts a {
+    text-align: center;
+}
+
+.faq-wrapper, .faq-wrapper850, .faq-wrapper-smaller {
+    width: 880px;
+    margin: 16px auto;
+}
+
+.faq-wrapper-smaller {
+    width: 700px;
+}
+
+.faq-wrapper h1, .faq-wrapper850 h1, .faq-wrapper-smaller h1 {
+    font-size: 22px;
+    margin: 0  0 16px 0;
+    padding: 0 5px 0 0;
+    text-align: left;
+}
+
+.faq-wrapper ul li, .faq-wrapper850 ul li, .faq-wrapper-smaller ul li {
+    line-height: 1.4em;
+    list-style: disc outside;
+}
+
+.faqkeyline {
+    margin: 20px 0;
+    border-bottom: 2px solid #cccccc; 
+    border-top: none; 
+    border-right: none; 
+    border-left: none;
+}
+
+.sidebyside-container, .sidebyside-container.sidebyside-right {
+    width: 48%;
+    float: left;
+    padding: 5px 8px;
+}
+
+.sidebyside-container.sidebyside-right {
+    padding: 0; 
+    float: right;
+}
+
+.info-graphic {
+    background-color: #e9eaec;
+    width: 100%;
+    padding: 30px 0;
+}
+
+.info-graphic img {
+    display: block;
+    margin: 0 auto;
+}
+
+p.institutionalmessage {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.screenshot_800 {
+    width:800px;
+    display:block;
+    margin: 20px auto;
+}
+
+.faqScreenshotBorder {
+    border: 15px solid #E9E9EB;
+    padding: 10px;
+}
+
+#related-questions a, #relatedProducts a {
+    display: inline-block;
+}
+
+#related-questions p{
+    margin: 0;
+}
+
+#related-questions a {
+	margin-left: 14px;
+}
+
+#relatedProducts #subhead p { 
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#relatedProducts a {
+    margin: 0;
+    width: 16.2%;
+    vertical-align: top;
+    text-decoration: none;
+}
+
+#relatedProducts a:hover {
+    color: #06c; 
+    text-decoration: underline;
+    cursor:pointer;
+}
+
+#relatedProducts img {
+    width: 100px;
+    height: 100px;
+}
+
+.faq-wrapper .faqBtn, .faq-wrapper850 .faqBtn, .faq-wrapper-smaller .faqBtn, .calcbtn {
+    margin: 20px auto;
+    display: block;
+    background-color: #036;
+    border: 0;
+    border-radius: .4em;
+    box-shadow: 0.2em 0.2em 0.3em #b4b5b5;
+    color: #fff;
+    font-weight: normal;
+    padding: .5em 1em;
+    text-decoration: none;
+    background-image: -webkit-linear-gradient(rgba(255,255,255,.5),transparent 50%);
+    background-image: linear-gradient(rgba(255,255,255,.5),transparent 50%);
+    filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#547698,endColorstr=#003366);
+
+}
+
+.faq-wrapper .faqBtn:hover,.faq-wrapper850 .faqBtn:hover, .faq-wrapper-smaller .faqBtn:hover, .calcbtn:hover {
+    cursor: pointer;
+    background-image: -webkit-linear-gradient(transparent,transparent 50%,rgba(255,255,255,.5)); 
+    background-image: linear-gradient(transparent,transparent 50%,rgba(255,255,255,.5)); 
+
+}
+
+@media only screen and (min-width: 1260px) {
+    .faq-wrapper { width: 1100px; }
+    .faq-wrapper-smaller {width: 880px;}
+	.faq-wrapper h1, .faq-wrapper850 h1, .faq-wrapper-smaller h1 {font-size: 24px;}
+	.faq-wrapper p,.faq-wrapper850 p, .faq-wrapper-smaller p, .faq-wrapper li, .faq-wrapper-smaller li, .conversiontoolsboxinputlabel, #conversionTool-subhead, .faq-wrapper button, .faq-wrapper-smaller button, .calcbtn, #relatedProducts h3, .default, input, .faq-wrapper table.boxCharts td, .faq-wrapper .textfield {font-size: 16px;}
+    .sidebyside-container { padding: 5px 10px;}
+    #relatedProducts #subhead p {font-size: 18px;}
+    p.institutionalmessage {font-size: 20px;}
+    #relatedProducts img { width: 125px; height: 125px;}
+}
+		
+/* END DESKTOP */
+
+
+
+/*  PRINT */

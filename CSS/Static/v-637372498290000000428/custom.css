@@ -1,0 +1,85 @@
+
+/* START MOBILE STYLES */ 
+
+			/*Mobile styles from cls/grp css for consistency*/
+			#mobileWrapper{font-family:"AvantGardeGothic",  "Uline", Verdana, Arial, Helvetica, sans-serif; padding:0 20px;}
+			#mobileWrapper header { background: #FFF; color: #000; font-size: 16px; padding: 20px  0 5px; text-align: center; word-wrap: break-word; display: block; }
+			#mobileWrapper h1 { font-size: 20px; text-transform: uppercase; text-align:left; margin-bottom:4px; font-weight:bold; line-height: 22px; }
+			#mobileWrapper .products a img { max-width: 120px; max-height: 120px; }
+			#mobileWrapper .products a { width: 50%; display: inline-block; text-align: center; font-size: 0; margin-bottom: 30px; overflow: hidden; vertical-align: top; }
+			#mobileWrapper h3 { font-size: 14px; text-align: center; margin: 3px auto 0 auto; line-height: 14px; }
+			#mobileWrapper .products .caption { margin: 8px auto 0 auto; width: 94%; height: auto; line-height: 15px; color: #000; }
+			#mobileWrapper .products { text-align: left; font-size: 0; }
+			#mobileWrapper, #productsWrapper, .products { margin: 0 auto; border: 0; font-size: 100%; vertical-align: baseline; }
+
+			/*breadcrumbs*/
+			#mobileBreadcrumbs{ background-color: #f2f2f2; width: 100%; padding: 44px 0 0 0; text-align:left; }
+			#mobileBreadcrumbs a{ padding: 6px 0 6px 10px; color: #036;	padding-left: 20px; text-transform: none !important; text-decoration: none; font-size: 16px; text-align: left; background: url("../../../h5/images/left_arrow.w_1463914163000hc.html") no-repeat 0% 50%; background-size: 10px 16px; display: inline-block; margin-left:10px; }
+			.breadcrumbs, #mobileBreadcrumbs { padding: 2px !important; }
+
+			/*top section*/
+			.fourwidewidth-exception { width: 100%; margin: 0 auto; }
+			.customcontentimageMobile img { max-width: 200px; max-height: 200px; margin-bottom: 30px; }
+			.customcontentMobile { float: left; display: inline-block; width: 100%; margin-bottom: 6px; text-align: left; font-size: 13px; }
+			.customcontentMobile ul { margin-bottom: 20px; }
+			.customcontentMobile ul li { list-style: disc !important; margin-left: 20px; }
+			.customcontentMobile p.customSubhead { font-weight: bold; color: #F00; text-align: center; }
+
+			/*design button and artwork link*/
+			.designButtonMobile { margin: 4px 0 30px 0; float: left; }
+			.secondartwork-requirementsMobile { float: left; display: inline-block; padding: 12px 0 0 16px; margin: 0; }
+
+			/*keyline*/
+			div.customMobile { height: 1px; background: #e5e4e4; border: none; margin-bottom: 30px; clear: both; }
+
+ 			/*color swatches*/
+			.custom-swatchMobile { width: 25%; float: left; display: inline-block; height: 94px; }
+			.custom-swatchMobile p { margin: 0 auto; text-align: center; }
+
+			.steps p.font-small { text-align: left; } 
+
+/* END MOBILE */
+
+ 
+
+
+/* START DESKTOP */
+
+.fourwidewidth-exception { width: 700px; margin: 0 auto; }
+
+/*top section*/
+.customcontentimage img { max-width: 252px; max-height: 252px; float: left; display: inline-block; margin-bottom: 38px; }
+.customcontent { float: left; display: inline-block; width: 56%; padding-left: 26px; margin-bottom: 26px; }
+.customcontent h1 { font-size: 22px; margin: 0; text-transform: uppercase; }
+.customcontent p.customSubhead { font-weight: bold; color: #F00; text-align: center; }
+.customcontent ul { padding-left: 20px; }
+.customcontent li { margin-bottom: 6px; }
+
+/*chart code*/
+.charts { margin: 0 auto; width: max-content; }
+
+/*design button and artwork link*/
+.designButton { margin: 20px 0 12px 10px; float: left; }
+.secondartwork-requirements { float: left; display: inline-block; padding: 27px 0 0 16px; margin: 0; }
+
+/*keyline*/
+div.custom { height: 1px; background: #e5e4e4; border: none; margin: 20px 0; clear: both; }
+
+.ordering-instructions { font-weight: bold; text-transform: uppercase; text-align: left; margin-bottom: 12px; }
+
+/*color swatches*/
+.custom-swatch { width: 10%; float: left; display: inline-block; height: 94px; }
+.color-square { width: 50px; height: 50px; border: 1px solid #000; margin: 0 auto; }
+.custom-swatch p { margin: 0 auto; text-align: center; }
+
+p.disclaimer { margin: 0; padding: 8px 0 26px 0; }
+
+ @media only screen and (min-width: 1260px){ 
+	.fourwidewidth-exception { width: 900px; }
+	.customcontentimage img { max-width: 352px; max-height: 352px; float: left; display: inline-block; }
+	.customcontent h1 { font-size: 24px; }
+	.custom-swatch { width: 10%; float: left; display: inline-block; height: 94px; }
+	
+} 
+
+/* END DESKTOP */

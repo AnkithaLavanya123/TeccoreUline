@@ -1,0 +1,247 @@
+
+/* START MOBILE STYLES */ 
+
+
+			#mobileWrapper{font-family:"AvantGardeGothic", "Uline", Verdana, Arial, Helvetica, sans-serif; padding:0 10px;}
+			#mobileWrapper header {
+				background: #FFF;
+				color: #000;
+				font-size: 16px;
+				padding: 20px  0 5px;
+				text-align: center;
+				word-wrap: break-word;
+				display: block;
+				}
+			#mobileWrapper h1 {
+				font-size: 20px;
+				text-transform: uppercase;
+				text-align:left;
+				margin-bottom:4px;
+				font-weight:bold;
+				line-height: 22px;
+				
+				}
+			#mobileBreadcrumbs ul.class li a {font-size: 18px;text-transform: uppercase;}
+			#mobileWrapper, #productsWrapper, .products  {
+				margin: 0 auto;
+				border: 0;
+				font-size: 100%;
+				vertical-align: baseline;
+				}
+			.products::before, #productsWrapper .products::after {
+				content: "";
+				display: table;
+				}
+			#mobileWrapper .products::after { clear:both;}
+			#mobileWrapper .products li:nth-child(2n+1) {
+				margin-right: 2.5%;
+				}
+			#mobileWrapper .products{text-align:left; font-size:0; /* font-size:0 fixes inline-block padding */}
+			#mobileWrapper .products a {
+				width: 50%;
+				display: inline-block;
+				text-align: center;
+				font-size: 0;
+				margin-bottom: 30px;
+				overflow: hidden;
+				vertical-align:top; /*Keeps thumbnails aligned horizontally despite abnormally long captions*/
+				/*margin-right:-4px;*/ /*Also fixes inline-block padding if there is any issue with font-size:0 on parent*/
+				
+				}
+			#mobileWrapper #productsWrapper .products a:hover, #mobileWrapper #productsWrapper .products a:visited  {text-decoration:none !important;}
+			#mobileWrapper .class{width: 47.5%;}
+			#mobileWrapper .products .image {
+				padding: 5px;
+				text-align: center;
+				margin-bottom: 5px;
+				overflow: hidden;
+				min-height: 130px;
+				}
+			#mobileWrapper .products a img {
+				max-width: 120px;
+				max-height: 120px;
+				}
+			#mobileWrapper img{border:0;}
+			#mobileBreadcrumbs{
+				background-color: #f2f2f2;
+				width: 100%;
+				padding: 44px 0 0 0;
+				text-align:left;
+				}
+			#mobileBreadcrumbs a{
+				padding: 6px 0 6px 10px;
+				color: #666;
+				padding-left: 20px;
+				text-transform: none !important;
+				text-decoration: none;
+				font-size: 16px;
+				text-align: left;
+				background: url("../../../h5/images/left_arrow.w_1463914163000hc.html") no-repeat 0% 50%;
+				background-size: 10px 16px;
+				display: inline-block;
+				margin-left:10px;
+				}
+			
+			
+			/*Header with Logo*/
+			#mobileWrapper .logoHeaderTwo {width: 100%; margin:0 0 15px; text-align:left;    /*padding-left: 11px;*/}
+			#mobileWrapper .logoHeaderTwo h2.logoh2 {display:inline; vertical-align:top; font-size:16px; padding-left:8px; margin-top: 3px;
+    position: absolute; width:auto;}
+			#mobileWrapper .logoHeaderTwo img{width:60px; height:22px;}
+			#mobileWrapper .logoHeaderTwo.multipleh2 {width: 50%; display:inline-block;}
+			
+			
+			
+			/*keyline and h2*/
+			.mobilekeyline{border-top: 2px solid #e5e4e4; margin: 0 0 18px 0; width:100%; display:inline-block;}
+			#mobileWrapper h2{font-size:16px; margin:30px 0 20px 0;  text-align:left; text-transform:uppercase;}
+			#mobileWrapper .products h2{margin: 0 0 15px; width:100%; display:inline-block;}
+			#mobileWrapper .products h2.multipleh2{margin: 0 0 15px; width:50%; display:inline-block;}
+			#mobileWrapper .products h2.cgh2Right{text-align:left; margin-left:50%; width:50%}
+			
+			#mobileWrapper .products .caption{margin:8px auto 0 auto; width: 94%; height:auto; line-height:18px; color: #000;}
+			#mobileWrapper .products p.cg-caption{font-size: 14px; margin:8px auto 0 auto; width: 94%; height:auto; line-height:18px; color: #000;}
+			#mobileWrapper h3{font-size:14px; text-align:center; margin: 3px auto 0 auto;line-height:14px;}
+			
+			/*SearchBy H2 in Filter*/
+			#mobileWrapper .searchBySize h2{font-size:16px; margin:0; padding-left:0px; text-transform:capitalize;}
+			
+			/*sup*/
+			#mobileWrapper sup { top: -.5em; }
+
+/* END MOBILE */
+
+
+
+
+/* START DESKTOP */
+
+
+			/* 980 STYLES */
+			
+					.cssstaticpages .grph1{margin: 0 0 8px 12px;  padding:0 5px 0 0; text-align:left; text-transform:uppercase; font-size:22px !important; color:#000000;}
+					.cssstaticpages .clsh1{font-size:22px !important; margin:0 0 17px 4px; padding:0 5px 0 0; text-align:left; text-transform:uppercase;}
+					.cssstaticpages .cgh2{width:auto; color:#000000; margin:5px 0 12px 24px; font-size:14px; text-transform:uppercase; text-align:left;}
+					.cssstaticpages .cgh2multiple {width:auto; color:#000000; margin:5px 0 12px 24px; font-size:14px; text-transform:uppercase; text-align:left; display:inline-block; vertical-align:middle;}
+					.groupfeature h3, .clsgrpthumbnails h3{font-size:12px; text-align:center; margin: 4px auto 0 auto; width:90%; line-height:15px;}
+					.groupfeature p.cg-caption, .clsgrpthumbnails p.cg-caption{font-size:12px; text-align:center; margin: 4px auto 0 auto; width:90%; line-height:16px; font-weight: bold; color:#036;}
+					.groupfeature h3{margin: 6px auto 0 auto;}
+					.groupfeature p.cg-caption{margin: 6px auto 0 auto;}
+					
+					/*Logo*/
+					.logoHeaderTwo{width:350px; margin-left:24px;margin-bottom:15px;}
+					.logoHeaderTwoMultiple{display:inline-block;}
+					.logoHeaderTwo img {width:48px;height:18px;}
+					.logoHeaderTwo h2{display:inline; text-transform:uppercase; font-size:14px;vertical-align: top; margin: 1px 0 0 6px; position: absolute;}
+					.logoHeaderTwoFeat {margin-left:14px;}
+					
+					/*Class*/
+					.classfeature{width: 100%; margin: 0 auto 5px auto; overflow: visible; text-align: left; display:inline-block; font-size:0; }
+					.classfeature a {display:inline-block; margin: 0 0 10px; vertical-align:top; text-align:center; width:33.33%;}
+					.classfeature a img {width:256px; height:176px;     border: 1px solid #000; border-bottom: none;}
+					.cssstaticpages .classfeature a h3{width:256px; height:auto; background-color: #c00; border: 1px solid #000; border-top:none; margin:0 auto; color:white; text-transform:uppercase; padding:5px 0; font-size:14px !important; text-decoration: none;}
+					.cssstaticpages .classfeature a h3:hover {background-color: #f00000; cursor:pointer; }
+					.cssstaticpages .classfeature a:hover h3{background-color: #f00000; cursor:pointer; }
+					.cssstaticpages .classfeature a p.cg-caption{width:256px; height:auto; background-color: #c00; border: 1px solid #000; border-top:none; margin:0 auto; color:white; text-transform:uppercase; padding:5px 0; font-size:14px !important; text-decoration: none; font-weight: bold;}
+					.cssstaticpages .classfeature a p.cg-caption:hover {background-color: #f00000; cursor:pointer; }
+					.cssstaticpages .classfeature a:hover p.cg-caption{background-color: #f00000; cursor:pointer; }
+					.groupwidthlarge a:hover, .groupwidthlarge a:visited, .groupwidthlarge a:link, .groupwidthlarge a:active {  text-decoration: none !important;}
+					
+					.groupwidthlarge .no-thumbs .caption{ text-align:left; font-weight:normal;}
+					.groupwidthlarge .no-thumbs p.cg-caption {font-weight:normal; text-align: left;}
+					.groupwidthlarge .no-thumbs h3{width:100%;}
+					.groupwidthlarge .no-thumbs p.cg-caption{width:100%;}
+					.groupwidthlarge .no-thumbs a{border-right: 1px solid #ccc;  padding-left:35px; width:20%; height:35px; margin:0;}
+					
+					.groupwidthlarge #expand-all a.cssa{font-size:11px;color:#666;}
+	
+                    .clsgrp_collapsible { background:none;border:none;padding-right:0;color:#666;cursor:pointer;}
+                    .clsgrp_collapsible:before { content: '\02795'; /* Unicode character for "plus" sign (+) */ font-size:7px;color: #666;float: left;margin: -1px 5px 0;border:0.5px solid #e5e4e4;}
+                    .clsgrp_active:before {content: "\2796"; /* Unicode character for "minus" sign (-) */ font-size:7px;color: #666;float: left;margin: -1px 5px 0;border:0.5px solid #e5e4e4;}
+					
+					/*Group*/
+					.groupwidthsmall {width:420px; margin:0 auto;}
+					.groupwidthmedium {width:617px; margin:0 auto;}
+					.groupwidthlarge {width:816px; margin:0 auto;}
+					.groupwidthxlarge {width:936px; margin:0 auto;}
+					
+					div.groupwidthsmall div.gnborder {border:none;}
+					div.groupwidthmedium div.gnborder {border:none;}
+					
+					.groupfeature{width: 100%; margin: 0 auto; overflow: visible; text-align: left; display:inline-block; font-size:0;}
+					.groupfeature a {display:inline-block; margin: 0 0 10px; vertical-align:top; text-align:center;}
+					.groupfeature a:hover p.cg-caption, .clsgrpthumbnails a:hover p.cg-caption {color: #06c;}
+					.grpFeat1 a{width:100%;}
+					.grpFeat2 a{width:50%;}
+					.grpFeat3 a{width:33.33%;}
+					.grpFeat4 a{width:25%;}
+					
+					.clsgrpthumbnails{text-align:left; font-size:0;}
+					.clsgrpthumbnails a {display:inline-block; margin:0 0 28px 0; width:25%; vertical-align:top; text-align:center; }
+					.clsgrpthumbnails a img{width:120px; height:120px;}
+					.rectThumbnails a img{width:120px; height:90px; margin-top:30px;}
+					.grpthumb5 a { width:20%;}
+					.grpthumb3 a { width:33.33%;}
+					.grpthumb2 a { width:50%;}
+					.grpthumb1 a { width:100%;}
+					
+					.clsgrpkeyline{border-top: 2px solid #E5E4E4; margin: 0 auto; padding: 10px 0; width: 94%; }
+					.groupfeature + .clsgrpkeyline{margin: 15px auto 0 auto; }
+					
+					.groupfeature .ftCaptionLarge{font-size:14px !important; line-height:16px;}
+					
+			
+								
+			
+			/*  1260 STYLES */
+					 @media only screen and (min-width: 1260px) { 
+					 
+					 .cssstaticpages .grph1{font-size:26px !important;}
+					 .cssstaticpages .clsh1{font-size:26px !important;}
+					 .cssstaticpages .cgh2{font-size:16px; }
+					 .cssstaticpages .cgh2multiple {font-size:16px;}
+					 .groupfeature h3, .clsgrpthumbnails h3 {margin: 4px auto 0 auto; font-size:14px; line-height:17px;}
+					 .groupfeature p.cg-caption, .clsgrpthumbnails p.cg-caption {margin: 4px auto 0 auto; font-size:14px; line-height:17px; font-weight: bold; color:#036;}
+					 
+					 /*Logo*/
+					.logoHeaderTwo{width:400px;}
+					.logoHeaderTwo img{width:60px;height:22px;}
+					.logoHeaderTwo h2{font-size:16px; }
+					 
+					 /*Class*/
+					.classfeature a img {width:320px; height:220px;}
+					.cssstaticpages .classfeature a h3{width:320px; height:auto; padding:7px 0;  font-size:16px !important;}
+					.cssstaticpages .classfeature a p.cg-caption{width:320px; height:auto; padding:7px 0;  font-size:16px !important; font-weight: bold; color:#fff;}
+					.groupwidthlarge #expand-all a.cssa{font-size:12px;}
+					
+					 /*Group*/
+					.groupwidthsmall {width:525px;}
+					.groupwidthmedium {width:772px;}
+					.groupwidthlarge {width:1020px;}
+					.groupwidthxlarge {width:1170px;}
+					
+					.groupfeature a {display:inline-block; margin: 0 0 15px;}
+					
+					.clsgrpthumbnails a { margin:0 0 55px 0;  }
+					.clsgrpthumbnails a img{width:180px; height:180px;}
+					.rectThumbnails a img{width:180px; height:135px; }
+					
+					.clsgrpkeyline{width: 95%; }
+					
+					.groupfeature .ftCaptionLarge{font-size:16px !important; line-height:19px;}
+
+					
+					} 
+			
+		
+			
+			
+/* END DESKTOP */
+
+
+
+/*  PRINT */
+					@media print {
+							.gnborder h1.grph1 { display: block; }
+							.groupwidthmedium .gnborder, .groupwidthlarge .gnborder, .groupwidthxlarge .gnborder { width:97% !important; }
+							 }
